@@ -4,16 +4,6 @@
 
 #define DATA_SIZE 30000
 
-/*
-NOTES:
-
-The user will pass into the program the <source_file> of the instructions
-When ',' occurs in <source_file> then the user will input through the terminal
-
-The tape size will be 30,000
-Each cell is 8bit, that said each cell can support 0-255 (I am using uint8)
-*/
-
 int main(int argc, char** argv) {
     uint8_t data[DATA_SIZE] = {0}; // uint8 because we have 0-255
     uint8_t* data_ptr = data;
